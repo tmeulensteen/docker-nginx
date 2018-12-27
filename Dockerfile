@@ -1,4 +1,4 @@
-FROM nginx:1.15.7
+FROM nginx:1.15.8
 MAINTAINER Kyle Mathews "mathews.kyle@gmail.com"
 
 RUN rm /etc/nginx/nginx.conf /etc/nginx/mime.types
