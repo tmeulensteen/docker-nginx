@@ -1,5 +1,5 @@
-FROM nginx:1.15.8-alpine
-MAINTAINER Kyle Mathews "mathews.kyle@gmail.com"
+FROM nginx:1.15.9-alpine
+MAINTAINER Tom Meulensteen <tom.meulensteen@trifork.nl>
 
 RUN rm /etc/nginx/nginx.conf /etc/nginx/mime.types
 COPY nginx.conf /etc/nginx/nginx.conf
